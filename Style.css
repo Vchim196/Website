@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(#ffffff, #fafafa);
+    /*Background es para cambiar el color de la pagina*/
+    color: rgb(0, 0, 0);
+    /*Color es para cambiar el color del texto en general*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+header
+{position:relative;
+top: 100%;
+left: 0;
+width: 90%;
+padding: 0% 30px;
+display: flex;
+justify-content:center;
+align-items: center;}
+
+header ul
+{display: flex;
+justify-content: center;
+align-items: center;}
+
+header ul li
+{list-style: none;
+margin-left: 10px;}
+
+header ul li a
+{text-decoration: none;
+padding: 6px 15px;
+color: #1f1e1e;}
+
+header ul li a:hover,
+header ul li a.active
+{ background: #d6d4d4;
+    border-radius: 10px;
+    color:#000000;}
+
+.titulo {color:rgb(19, 18, 18);
+font-family:'Caprasimo', cursive;
+text-decoration:none;
+text-align: center;
+font-size: 3em;
+position: relative;
+padding: 0%;
+margin: 1.5%;
+text-shadow: #1f1e1e;}
+
+h2{color:rgb(0, 0, 0);}
+/*El punto es para referirse a la clase que es el titulo y despues color para colocar el color en que quiero que este, solo se afectara este titulo*/
+/*Elementos. Selector{ propiedad.valor;}*/
+img{width: 90%;}
